@@ -19,7 +19,7 @@ const NavBar = () => {
        type='text'
        value={search}
        onChange={(e)=>setSearch(e.target.value)}
-        className='h-12 w-2xl flex pl-12 outline-1 rounded-2xl ' placeholder='Searcg Recipe'/>
+        className='h-12 w-2xl flex pl-12 outline-1 rounded-2xl ' placeholder='Search Recipe'/>
        </div>
        <div className='flex justify-center items-center gap-2'>
           <FontAwesomeIcon icon={faCartPlus} className="text-2xl"/>
