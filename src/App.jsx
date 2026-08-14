@@ -11,7 +11,7 @@ const App = () => {
     const filterRecipe=productData.filter((recipe)=>{
     return recipe.name.toLowerCase().includes(search.toLowerCase())
   })
-  console.log(filterRecipe);
+  // console.log(filterRecipe);
   return (
     <div className='p-2'>
        <NavBar/>
