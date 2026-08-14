@@ -22,7 +22,7 @@ const {
     )
  }
 const increment=(id)=>{
-  console.log("Clicked Id",id);
+  // console.log("Clicked Id",id);
   
       setCart((prev)=>{
         // console.log("Previous cart:", prev);
